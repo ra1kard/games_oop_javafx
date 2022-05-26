@@ -6,8 +6,8 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-@Ignore
 public class WinTest {
+
     @Test
     public void whenVerticalWin() {
         int[][] board = {
@@ -55,4 +55,5 @@ public class WinTest {
         };
         assertThat(Win.check(board), is(false));
     }
+
 }
