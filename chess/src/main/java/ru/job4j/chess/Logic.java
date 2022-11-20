@@ -4,6 +4,9 @@ import ru.job4j.chess.firuges.Cell;
 import ru.job4j.chess.firuges.Figure;
 import java.util.Arrays;
 
+/**
+ * 4. Класс Logic. Этот класс управляет логикой игры.
+ */
 public final class Logic {
     private final Figure[] figures = new Figure[32];
     private int index = 0;
@@ -38,4 +41,5 @@ public final class Logic {
         }
         throw new FigureNotFoundException();
     }
+
 }
